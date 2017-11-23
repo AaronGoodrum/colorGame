@@ -14,10 +14,14 @@ h1 {
     padding: 15px;
     text-transform: uppercase;
 }
+#colorDisplay {
+    font-size: 150%;
+}
 
 #message {
-    display: inline-block;
-    width: 17%;
+  text-align: center;
+
+  width: 20%;
 }
 
 .buttons {
