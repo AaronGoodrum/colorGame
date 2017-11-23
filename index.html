@@ -1,11 +1,28 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+  <meta charset="utf-8" name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
   <title>The Color Game</title>
-  <link rel="stylesheet" type="text/css" href="" />
+  <link rel="stylesheet" type="text/css" href="colorGame.css" />
 </head>
 
 <body>
-  <h1>The Great RGB Color Game</h1>
+<div class="item-header">
+    <h1>The Great Color Game<br /><span id="colorDisplay">RGB</span></h1>
+  <!--Button for reset and modes  -->
+  <div class="buttons">
+    <button id="resetButton">Colors</button>
+    <span id="message"></span>
+    <button class="mode selected">Easy</button>
+    <button class="mode">Hard</button>
+  </div>
+</div>
+  <!-- container for color square to be random  -->
+  <div class="container item-main">
+    <div class="square"></div>
+    <div class="square"></div>
+    <div class="square"></div>
+  </div>
+
 </body>
 </html>
